@@ -1,0 +1,113 @@
+.game{
+    border: 5px solid black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    transform: translate(-50%, -50%);
+    background: url(chickens-farm.jpg) 50%;
+    background-size: 540px
+}
+
+canvas{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.xing{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 2%;
+    padding: 5px;
+    width: 390px;
+}
+
+.scared{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 67%;
+    padding: 5px;
+    width: 450px;
+}
+
+.background-game{
+    background-image: linear-gradient(to right, rgb(42, 42, 152), lightblue);
+    background-size: cover;
+}
+
+.background-image{
+    width: 100%;
+    background-image: url('/PedXing.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+}
+
+.background-game{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+}
+
+.playgame{
+    position: absolute;
+    width: 310PX;
+    height: 80PX;
+    background: #ffe644;
+    border: 5px solid black;
+    margin-bottom: 100px;
+    margin-top: 350px;
+    margin-left: 70%;
+    font-size: 30px;
+    font-family: Arial;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.playgame a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.playgame:hover{
+    background: white;
+}
+
+.instuctions{
+    position: absolute;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    padding-top: 500px,;
+    font-family: Arial;
+    color: #ffe644;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+    background-color: black;
+    width: 280px;
+    border: 5px solid white;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 30px;
+    text-align: justify;
+    
+}
+
+.title{
+    letter-spacing: 2.2px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
