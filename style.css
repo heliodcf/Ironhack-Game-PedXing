@@ -1,3 +1,7 @@
+body{
+    overflow-y: hidden;
+}
+
 .game{
     border: 5px solid black;
     top: 50%;
